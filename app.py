@@ -5,7 +5,13 @@ import pandas as pd
 
 #load trained model
 
-model = joblib.load(r'C:\\Users\\pchai\\OneDrive\\Desktop\\nasscom\\Ml-close-Stock-prediction\\Model\\stock_price_model.pkl')
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = BASE_DIR / "Model" / "stock_price_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 st.title('Stock Closing Price Prediction ')
 
 st.write("Enter Open,High,Low prices:")
