@@ -1,4 +1,3 @@
-
 streamlit
 pandas
 numpy
@@ -6,12 +5,3 @@ scikit-learn
 joblib
 matplotlib
 seaborn
-'''
-Streamlit    – Web application.
-Pandas       – Data manipulation.
-NumPy        – Numerical operations.
-Scikit-learn – Machine Learning models.
-Joblib       – Model loading and saving.
-Matplotlib   – Data visualization.
-Seaborn      – Exploratory Data Analysis.
-'''
